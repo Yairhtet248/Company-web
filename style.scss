@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.main-section {
+    height: 100vh;
+    background:
+    linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+background-blend-mode: screen;
+}
+
+.custom-btn {
+    background-color: #fff;
+}
+.img-first {
+    border-radius: 41% 59% 69% 31% / 38% 33% 67% 62%; }
+.custom-shape-divider-bottom-1723886906 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1723886906 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 205px;
+}
+
+.custom-shape-divider-bottom-1723886906 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.container-profile{
+    height: auto;
+    .img-second {
+        // width: 300px;
+        height: auto;
+        transform: skewY(7deg);
+        border: 10px solid rgba(138, 43, 226, 0.4);
+        border-radius: 20px;
+        box-shadow: -10px -10px #604545, 15px 10px 20px rgb(30, 142, 139);
+    }
+}
+
+.third-container {
+    background-image: url(https://images.pexels.com/photos/7919/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800);
+    background-size: cover;
+    height: auto;
+    background-position: center;
+    .icon-box {
+        background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3));
+        backdrop-filter: blur(0.8rem);
+        padding: 30px;
+        border-radius: 30px;
+        border-bottom: 3px solid white;
+        
+    }
+}
+
+.team-container {
+    .owl-carousel {
+        .member-card {
+            height: 400px;
+            position: absolute;
+            .box {
+                background-image:linear-gradient(red, transparent), linear-gradient(to top left, lime, transparent), linear-gradient(to top right, blue, transparent);  
+                height: 180px;
+            }
+            .custom-card-content {
+                background-color: #FFFFFF;
+                border-radius: 40px 40px 0 0;
+                top: 30%;
+                img {
+                    width: 80px;
+                    height: 80px;
+                    object-fit: cover;
+                    margin: 0 auto;
+                    position: absolute;
+                    inset: 0;
+                    top: -40px;
+                    border: 1px solid aqua;
+                }
+            }
+
+        }
+    }
+    
+}
+
+a {
+    text-decoration: none;
+
+}
+
+footer {
+    background-image: linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+    height: auto;
+    .social {
+        display: flex;
+        a {
+            background-color: rgba(0, 255, 255, 0.2);
+            border-radius: 50%;
+            margin: 10px;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            i {
+                color: #FFFFFF;
+                
+            }
+        }
+    }
+
+}
+
+@media (min-width: 992px) {
+    .container-profile {
+        .img-second {
+            width: 250px !important;
+        }
+    }
+
+    .third-container {
+        height: 70vh;
+        
+    }    
+}
